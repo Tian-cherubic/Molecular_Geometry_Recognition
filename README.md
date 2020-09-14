@@ -5,26 +5,24 @@ In this notebook, I parsed structural and energy data from 5000 Gaussian output 
 
 ## Outline
 
-1. **Parse coordinates and energies from Gaussian output files** <br>
-
-2. **Calculate distances to four reference points (ctd, tst, fct, ftf)** <br>
-
-3. **Obtain first three moments of the distance sets to four reference points to encode molecular shape** <br>
-
-4. **Create a dataframe with moments and energy data** <br>
+1. **Data preparation** <br>
+    1a. Parse coordinates and energies from Gaussian output files <br>
+    1b. Calculate distances to four reference points (ctd, tst, fct, ftf) <br>
+    1c. Obtain first three moments of the distance sets to four reference points to encode molecular shape <br>
+    1d. Create a dataframe with moments and energy data <br>
     
-5. **Data exploration and visualization** <br> 
+2. **Data exploration and visualization** <br> 
 
-6. **Dimensionality reduction and data visualization using PCA/t-SNE** <br> 
-    6a. Function to plot 2D figure <br>
-    6b. Use PCA to reduce the dataset down to two dimensions to plot the result <br>
-    6c. Use t-SNE to reduce the dataset down to two dimensions to plot the result <br>
+3. **Dimensionality reduction and data visualization using PCA/t-SNE** <br> 
+    3a. Function to plot 2D figure <br>
+    3b. Use PCA to reduce the dataset down to two dimensions to plot the result <br>
+    3c. Use t-SNE to reduce the dataset down to two dimensions to plot the result <br>
 
-7. **K-means clustering and visualization** <br>
-    7a. Function to plot Inertia diagram <br>
-    7b. Function to plot silhouette score <br>
-    7c. Function to plot Voronoi diagram <br>
-    7d. K-Means clustering on data reduced via PCA <br>
-    7e. K-Means clustering on data reduced via t-SNE <br>
+4. **K-means clustering and visualization** <br>
+    4a. Function to plot Inertia diagram <br>
+    4b. Function to plot silhouette score <br>
+    4c. Function to plot Voronoi diagram <br>
+    4d. K-Means clustering on data reduced via PCA <br>
+    4e. K-Means clustering on data reduced via t-SNE <br>
 
-8. **Export coordinates of molecules that are closest to cluster centroids** <br>
+5. **Export coordinates of molecules that are closest to cluster centroids** <br>
