@@ -8,7 +8,7 @@ In this notebook, I parsed structural and energy data from 5000 Gaussian output 
 1. **Data preparation** <br>
     1a. Parse coordinates and energies from Gaussian output files <br>
     1b. Calculate distances to four reference points (ctd, tst, fct, ftf) <br>
-    1c. Obtain first three moments of the distance sets to four reference points to encode molecular shape <br>
+    1c. Obtai the first three moments of the distance sets to four reference points to encode molecular shape <br>
     1d. Create a dataframe with moments and energy data <br>
     
 2. **Data exploration and visualization** <br> 
